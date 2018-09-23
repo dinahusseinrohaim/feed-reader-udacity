@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e752e694-b101-4da0-8ddc-c53a1e8f4e24" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="e752e694-b101-4da0-8ddc-c53a1e8f4e24" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +23,8 @@
       <file leaf-file-name="feedreader.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jasmine/spec/feedreader.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+            <state relative-caret-position="174">
+              <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -122,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1537728788589</updated>
-      <workItem from="1537728790804" duration="1399000" />
+      <workItem from="1537728790804" duration="1644000" />
     </task>
     <task id="LOCAL-00001" summary="check all url is defined and not empty">
       <created>1537730064980</created>
@@ -138,11 +136,32 @@
       <option name="project" value="LOCAL" />
       <updated>1537730198474</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new test The menu">
+      <created>1537730273766</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537730273766</updated>
+    </task>
+    <task id="LOCAL-00004" summary="check menu elements">
+      <created>1537730350120</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1537730350120</updated>
+    </task>
+    <task id="LOCAL-00005" summary="check menu changes">
+      <created>1537730446401</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537730446401</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1399000" />
+    <option name="totallyTimeSpent" value="1644000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -180,7 +199,10 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="check all url is defined and not empty" />
     <MESSAGE value="heck allFeeds defined and its object" />
-    <option name="LAST_COMMIT_MESSAGE" value="heck allFeeds defined and its object" />
+    <MESSAGE value="new test The menu" />
+    <MESSAGE value="check menu elements" />
+    <MESSAGE value="check menu changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="check menu changes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/js/app.js">
@@ -202,8 +224,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jasmine/spec/feedreader.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="47" column="39" lean-forward="true" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
+        <state relative-caret-position="174">
+          <caret line="72" column="46" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

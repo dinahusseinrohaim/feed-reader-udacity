@@ -33,10 +33,10 @@ $(function () {
          * check all url is defined and not empty
          */
         it('url defined', function () {
-            for (let feed of allFeeds) {
+            allFeeds.forEach(function (feed) {
                 expect(feed.url).toBeDefined();
                 expect(feed.url.length).not.toBe(0);
-            }
+            });
         });
 
         /* TODO: Write a test that loops through each feed
@@ -45,10 +45,10 @@ $(function () {
          * check allFeeds defined and its object
          */
         it('name defined', function () {
-            for (let feed of allFeeds) {
+            allFeeds.forEach(function (feed) {
                 expect(feed.name).toBeDefined();
                 expect(feed.name.length).not.toBe(0);
-            }
+            })
         });
 
     });
@@ -63,8 +63,7 @@ $(function () {
          * hiding/showing of the menu element.
          */
         it('is hidden', function () {
-            const body = document.querySelector('body');
-            expect(body.classList.contains('menu-hidden')).toBe(true);
+            expect($('body').hasClass('menu-hidden')).toBe(true);
         });
 
         /* TODO: Write a test that ensures the menu changes
@@ -73,14 +72,14 @@ $(function () {
          * clicked and does it hide when clicked again.
          */
         it('toggles on and off', function () {
-            const body = document.querySelector('body');
-            const menu = document.querySelector('.menu-icon-link');
+            const body = $('body');
+            const menu = $('.menu-icon-link');
 
             menu.click();
-            expect(body.classList.contains('menu-hidden')).toBe(false);
+            expect(body.hasClass('menu-hidden')).toBe(false);
 
             menu.click();
-            expect(body.classList.contains('menu-hidden')).toBe(true);
+            expect(body.hasClass('menu-hidden')).toBe(true);
         });
 
     });
@@ -98,8 +97,7 @@ $(function () {
             loadFeed(0, done);
         });
         it('completes work', function () {
-            const feed = document.querySelectorAll('.feed .entry');
-            expect(('.feed.children').length > 0).toBe(true);
+            expect($('.feed .entry').length > 0).toBe(true);
         });
     });
 
